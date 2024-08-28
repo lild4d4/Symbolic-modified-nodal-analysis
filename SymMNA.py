@@ -108,7 +108,8 @@ def smna(net_list):
     num_ccvs = 0
     num_cpld_ind = 0 # number of coupled inductors
 
-    content = net_list.splitlines()
+    #content = net_list.splitlines()
+    content = net_list
 
     content = [x.strip() for x in content]  #remove leading and trailing white space
     # remove empty lines
@@ -307,7 +308,7 @@ def smna(net_list):
         if df['n node'].max() > df['p node'].max():
             largest = df['n node'].max()
         else:
-            largest =  df['p node'].max()
+            largest = df['p node'].max()
 
         largest = int(largest)
         # check for unfilled elements, skip node 0
