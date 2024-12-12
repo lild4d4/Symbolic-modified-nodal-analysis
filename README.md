@@ -1,10 +1,10 @@
 # Symbolic modified nodal analysis
-Last update: 23 Jan 2024  
-Current version of the Symbolic modified nodal analysis Jupyter notebook is in the main folder [here](https://github.com/Tiburonboy/Symbolic-modified-nodal-analysis/blob/master/node%20analysis.ipynb) and should have a last update date of 14 Nov 2023. See test circuits folder for versions of OS, Numpy etc. being used. See [backup folder](https://github.com/Tiburonboy/Symbolic-modified-nodal-analysis/tree/master/backup) for past versions. 
+Last update: 6 Dec 2024  
+~~Current version of the Symbolic modified nodal analysis Jupyter notebook is in the main folder [here](https://github.com/Tiburonboy/Symbolic-modified-nodal-analysis/blob/master/node%20analysis.ipynb) and should have a last update date of 14 Nov 2023. See test circuits folder for versions of OS, Numpy etc. being used. See [backup folder](https://github.com/Tiburonboy/Symbolic-modified-nodal-analysis/tree/master/backup) for past versions.~~ 
 
-I'm currently working on a long form manual for this project, see the link [here](https://tiburonboy.github.io/Symbolic-Modified-Nodal-Analysis-using-Python/) for the github page.
+I'm currently working on a long form manual for this project, see the link [here](https://tiburonboy.github.io/Symbolic-Modified-Nodal-Analysis-using-Python/) for the book/manual or the github [repository](https://github.com/Tiburonboy/Symbolic-Modified-Nodal-Analysis-using-Python). This is where you can find the most current documentation and version of the Python code, along with validation tests and examples. I recommend that you follow the link, since I’m currently devoting my time and effort to updating the documentation contained at the link. At some point, I’ll circle back here and update this repository, as a result, some items here might be out of date.
 
-**Maintenance:** This project is not actively maintained, but I do use the code from time to time. The biggest issue has been deprecated SymPy functions. Since I’m in the mode not upgrading or updating Anaconda, I don’t encounter too many issues with deprecation of features. Usually at the end of the long term support period for whatever version of Linux that I have installed, is when I update Anaconda along with the Python libraries. This is when these type of issues pop up. See the backup folder for the version history.
+~~**Maintenance:** This project is not actively maintained, but I do use the code from time to time. The biggest issue has been deprecated SymPy functions. Since I’m in the mode not upgrading or updating Anaconda, I don’t encounter too many issues with deprecation of features. Usually at the end of the long term support period for whatever version of Linux that I have installed, is when I update Anaconda along with the Python libraries. This is when these type of issues pop up. See the backup folder for the version history.~~
 
 **Abstract:** The python code in this jupyter notebook will read in a spice like circuit netlist file and formulate a set of network equations in symbolic form using sympy. These equations can then be copied to a different notebook where the node voltages can be numerically solved using sympy or numpy.  Linear resistors, capacitors, inductors, independent sources and controlled sources are supported.
 
@@ -91,10 +91,11 @@ Maple is a mathematical package and there is an application [notes](https://www.
 
 [Lcapy](https://github.com/mph-/lcapy) is an experimental Python package for teaching linear circuit analysis. It uses SymPy for symbolic mathematics. 
 
-**License:**  This work (includes python code, documentation, test circuits, etc.) is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.  
-Share — copy and redistribute the material in any medium or format  
-Adapt — remix, transform, and build upon the material for any purpose, even commercially.  
-https://creativecommons.org/licenses/by-sa/4.0/  
+**License:** This work (includes python code, documentation, test circuits, etc.) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).  
+- Share — Copy and redistribute the material in any medium or format.  
+- Adapt — Remix, transform, and build upon the material for any purpose, even commercially.  
+- Attribution — You must give [appropriate credit](https://creativecommons.org/licenses/by-sa/4.0/#ref-appropriate-credit), provide a link to the license, and [indicate if changes were made](https://creativecommons.org/licenses/by-sa/4.0/#ref-indicate-changes). You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.  
+- ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the [same license](https://creativecommons.org/licenses/by-sa/4.0/#ref-same-license) as the original.  
 
 <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" />
 
